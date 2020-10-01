@@ -1,15 +1,15 @@
 var docente1 = {
-    nombre: 'Guillermo',
-    apellido: 'Pizarro',
-    afiliacion: 'Universidad Politécnica Salesiana',
-    correo_electronico: 'gpizarro@ups.edu.ec',
+    nombre: `Guillermo`,
+    apellido: `Pizarro`,
+    afiliacion: `Universidad Politécnica Salesiana`,
+    correo_electronico: `gpizarro@ups.edu.ec`,
 }
 
 var docente2 = {
-    nombre: 'Juan',
-    apellido: 'Andrade',
-    afiliacion: 'Universidad Politécnica Salesiana',
-    correo_electronico: 'jandrade@ups.edu.ec',
+    nombre: `Juan`,
+    apellido: `Andrade`,
+    afiliacion: `Universidad Politécnica Salesiana`,
+    correo_electronico: `jandrade@ups.edu.ec`,
 }
 
 function imprimirNombreMayuscula(objeto) {

@@ -1,6 +1,6 @@
 let persona = {
-    nombre: 'Alejandro',
-    apellido: 'Vega',
+    nombre: `Alejandro`,
+    apellido: `Vega`,
     peso: 150, 
 }
 
@@ -19,11 +19,11 @@ console.log( `Al inicio del año ${persona.nombre} pesa ${persona.peso}.` )
 
 while( persona.peso > META ) {
     if (comeMucho()) {
-        console.log('Aumenta el peso.')
+        console.log(`Aumenta el peso.`)
         aumentarPeso( persona )
     }
     if (realizaDeporte()) {
-        console.log('Disminuye el peso.')
+        console.log(`Disminuye el peso.`)
         disminuyePeso( persona )
     }
 }
