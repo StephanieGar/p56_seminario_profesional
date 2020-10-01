@@ -1,4 +1,4 @@
-var edad = 35
+var edad = 23
 console.log(`${edad}`)
 edad += 1
 console.log(`${edad}`)
