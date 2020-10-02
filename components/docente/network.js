@@ -26,7 +26,7 @@ router.post('/', function(req, res) {
 })
 
 router.patch('/', function(req, res) {
-    controller.updateDocente( req.body.id_docente, req.body.nombre, req.body.apellido, req.body.correo_electronico )
+    controller.updateDocente( req.body.id_docente, req.body.nombre, req.body.apellido, req.body.correo_electronico  )
         .then((data) => {
             response.success( req, res, data, 201 )        
         })
